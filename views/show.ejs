@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../stylesheets/style.css" />
+    <title>Files</title>
+  </head>
+  <body>
+    <div class="main w-full min-h-screen bg-zinc-900 text-white p-10">
+        <a class="text-blue-400 inline-block mb-10 text-sm" href="/">Go back to home</a>
+        <div class="border border-zinc-600 rounded-lg p-6">
+            <h1 class="text-medium text-2xl"><%= filename %></h1>
+            <p class="text-md mt-5 text-zinc-400"><%= filedata %></p>
+        </div>
+
+    </div>
+  </body>
+</html>
